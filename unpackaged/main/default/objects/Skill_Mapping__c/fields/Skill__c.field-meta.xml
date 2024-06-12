@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill__c</fullName>
+    <externalId>false</externalId>
+    <label>Skill</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add On</fullName>
+                <default>false</default>
+                <label>Add On</label>
+            </value>
+            <value>
+                <fullName>Asset Gateway - Hardware</fullName>
+                <default>false</default>
+                <label>Asset Gateway - Hardware</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Chargeback</fullName>
+                <default>false</default>
+                <label>Chargeback</label>
+            </value>
+            <value>
+                <fullName>Collection Ops</fullName>
+                <default>false</default>
+                <label>Collection Ops</label>
+            </value>
+            <value>
+                <fullName>Compliance - Hardware</fullName>
+                <default>false</default>
+                <label>Compliance - Hardware</label>
+            </value>
+            <value>
+                <fullName>Compliance - Logs</fullName>
+                <default>false</default>
+                <label>Compliance - Logs</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>Credit block / Unblock</fullName>
+                <default>false</default>
+                <label>Credit block / Unblock</label>
+            </value>
+            <value>
+                <fullName>Credit Collections</fullName>
+                <default>false</default>
+                <label>Credit Collections</label>
+            </value>
+            <value>
+                <fullName>Credit Collections - Lower</fullName>
+                <default>false</default>
+                <label>Credit Collections - Lower</label>
+            </value>
+            <value>
+                <fullName>Credit Collections - Upper</fullName>
+                <default>false</default>
+                <label>Credit Collections - Upper</label>
+            </value>
+            <value>
+                <fullName>CSA Non-Cancellation</fullName>
+                <default>false</default>
+                <label>CSA Non-Cancellation</label>
+            </value>
+            <value>
+                <fullName>CSA Non-Retained Cancellations</fullName>
+                <default>false</default>
+                <label>CSA Non-Retained Cancellations</label>
+            </value>
+            <value>
+                <fullName>CSA Retained Cancellations</fullName>
+                <default>false</default>
+                <label>CSA Retained Cancellations</label>
+            </value>
+            <value>
+                <fullName>CSA Sub-Modification</fullName>
+                <default>false</default>
+                <label>CSA Sub-Modification</label>
+            </value>
+            <value>
+                <fullName>CS Spanish</fullName>
+                <default>false</default>
+                <label>CS Spanish</label>
+            </value>
+            <value>
+                <fullName>Customized Invoicing</fullName>
+                <default>false</default>
+                <label>Customized Invoicing</label>
+            </value>
+            <value>
+                <fullName>Electrical Issues</fullName>
+                <default>false</default>
+                <label>Electrical Issues</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>OM Lower</fullName>
+                <default>false</default>
+                <label>OM Lower</label>
+            </value>
+            <value>
+                <fullName>OM Other</fullName>
+                <default>false</default>
+                <label>OM Other</label>
+            </value>
+            <value>
+                <fullName>OM Upper</fullName>
+                <default>false</default>
+                <label>OM Upper</label>
+            </value>
+            <value>
+                <fullName>Other - Billing</fullName>
+                <default>false</default>
+                <label>Other - Billing</label>
+            </value>
+            <value>
+                <fullName>Other - Collections</fullName>
+                <default>false</default>
+                <label>Other - Collections</label>
+            </value>
+            <value>
+                <fullName>Rapid Dispute Resolution</fullName>
+                <default>false</default>
+                <label>Rapid Dispute Resolution</label>
+            </value>
+            <value>
+                <fullName>Reefer - Environmental Sensor</fullName>
+                <default>false</default>
+                <label>Reefer - Environmental Sensor</label>
+            </value>
+            <value>
+                <fullName>Reefer - Thermo King</fullName>
+                <default>false</default>
+                <label>Reefer - Thermo King</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Sr CSA Non-Cancellation</fullName>
+                <default>false</default>
+                <label>Sr CSA Non-Cancellation</label>
+            </value>
+            <value>
+                <fullName>Sr CSA Non- Retained Cancellations</fullName>
+                <default>false</default>
+                <label>Sr CSA Non- Retained Cancellations</label>
+            </value>
+            <value>
+                <fullName>Sr CSA Retained Cancellations</fullName>
+                <default>false</default>
+                <label>Sr CSA Retained Cancellations</label>
+            </value>
+            <value>
+                <fullName>Sr CSA Sub-Modification</fullName>
+                <default>false</default>
+                <label>Sr CSA Sub-Modification</label>
+            </value>
+            <value>
+                <fullName>Trial</fullName>
+                <default>false</default>
+                <label>Trial</label>
+            </value>
+            <value>
+                <fullName>Unreturned Hardware</fullName>
+                <default>false</default>
+                <label>Unreturned Hardware</label>
+            </value>
+            <value>
+                <fullName>Unreturned RMA</fullName>
+                <default>false</default>
+                <label>Unreturned RMA</label>
+            </value>
+            <value>
+                <fullName>Wifi/Cell Modem</fullName>
+                <default>false</default>
+                <label>Wifi/Cell Modem</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

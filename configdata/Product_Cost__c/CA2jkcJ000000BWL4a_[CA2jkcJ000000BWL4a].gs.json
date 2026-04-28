@@ -1,0 +1,27 @@
+{
+  "Object": "Product_Cost__c",
+  "Fields": {
+    "Cost__c": "4000.0",
+    "CurrencyIsoCode": "USD",
+    "End_Date__c": "",
+    "GearsetDisplayName": "CA2jkcJ000000BWL4a",
+    "GearsetExternalId__c": "CA2jkcJ000000BWL4a",
+    "Start_Date__c": "2026-04-22"
+  },
+  "References": [
+    {
+      "Name": "Product_Option__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "01tWB00000DNOtOYAX"
+      }
+    }
+  ]
+}

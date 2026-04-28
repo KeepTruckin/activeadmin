@@ -1,0 +1,27 @@
+{
+  "Object": "Product_Cost__c",
+  "Fields": {
+    "Cost__c": "9.76",
+    "CurrencyIsoCode": "CAD",
+    "End_Date__c": "",
+    "GearsetDisplayName": "0AMTY0D0000009VL4a",
+    "GearsetExternalId__c": "0AMTY0D0000009VL4a",
+    "Start_Date__c": "2026-04-22"
+  },
+  "References": [
+    {
+      "Name": "Product_Option__r",
+      "ReferencedObject": "SBQQ__ProductOption__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "01tWB00000DNRo1YAH"
+      }
+    }
+  ]
+}

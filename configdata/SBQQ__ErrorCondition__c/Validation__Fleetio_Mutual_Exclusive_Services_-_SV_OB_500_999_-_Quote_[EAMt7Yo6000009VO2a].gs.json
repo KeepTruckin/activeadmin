@@ -1,0 +1,47 @@
+{
+  "Object": "SBQQ__ErrorCondition__c",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "ATGINTExternalID__c": "",
+    "CurrencyIsoCode": "USD",
+    "GearsetDisplayName": "Validation : Fleetio Mutual Exclusive Services - SV_OB_500_999 - Quote",
+    "GearsetExternalId__c": "EAMt7Yo6000009VO2a",
+    "OSCPQ_External_Id__c": "",
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__FilterValue__c": "0",
+    "SBQQ__Index__c": "20.0",
+    "SBQQ__Operator__c": "greater than",
+    "SBQQ__TestedField__c": "",
+    "SBQQ__TestedObject__c": "Quote"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "EAIp5Sa0000009Vu2a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedAttribute__r",
+      "ReferencedObject": "SBQQ__ProductAttribute__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "IAMxZhy0000009VH3a"
+      }
+    }
+  ]
+}

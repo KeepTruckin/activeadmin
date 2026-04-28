@@ -1,0 +1,32 @@
+{
+  "Object": "SBQQ__SummaryVariable__c",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "ATGINTExternalID__c": "",
+    "CurrencyIsoCode": "USD",
+    "Deployment_Date__c": "",
+    "GearsetDisplayName": "SV_TRN_500_999",
+    "GearsetExternalId__c": "AAMnehy0000009VH3a",
+    "Name": "SV_TRN_500_999",
+    "OSCPQ_External_Id__c": "",
+    "SBQQ__AggregateField__c": "Quantity",
+    "SBQQ__AggregateFunction__c": "Sum",
+    "SBQQ__CompositeOperator__c": "",
+    "SBQQ__ConstraintField__c": "",
+    "SBQQ__FilterField__c": "Product Code",
+    "SBQQ__FilterValue__c": "SV_TRN_500_999",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__TargetObject__c": "Quote Line",
+    "SBQQ__ValueElement__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__CombineWith__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

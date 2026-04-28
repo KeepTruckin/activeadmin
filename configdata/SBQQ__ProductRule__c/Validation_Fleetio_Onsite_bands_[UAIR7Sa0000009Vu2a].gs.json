@@ -1,0 +1,31 @@
+{
+  "Object": "SBQQ__ProductRule__c",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "ATGINTExternalID__c": "",
+    "Created_by_ATG__c": "false",
+    "CurrencyIsoCode": "USD",
+    "Deployment_Date__c": "",
+    "Description__c": "",
+    "GearsetDisplayName": "Validation: Fleetio Onsite bands",
+    "GearsetExternalId__c": "UAIR7Sa0000009Vu2a",
+    "Modified_by_ATG__c": "false",
+    "Name": "Validation: Fleetio Onsite bands",
+    "OSCPQ_External_Id__c": "",
+    "Prodly_External_Id__c": "iueqjuqo3uo21i",
+    "SBQQ__Active__c": "true",
+    "SBQQ__AdvancedCondition__c": "(10 AND 20 ) OR ( 10 AND 30 ) OR (20 AND 30 )",
+    "SBQQ__ConditionsMet__c": "Custom",
+    "SBQQ__ErrorMessage__c": "Only one Fleetio Onsite Training fleet-size band (100–499, 500–999, or 1000+) can be added to a single quote.",
+    "SBQQ__EvaluationEvent__c": "Always",
+    "SBQQ__EvaluationOrder__c": "",
+    "SBQQ__LookupMessageField__c": "",
+    "SBQQ__LookupObject__c": "",
+    "SBQQ__LookupProductField__c": "",
+    "SBQQ__LookupRequiredField__c": "",
+    "SBQQ__LookupTypeField__c": "",
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__Type__c": "Validation"
+  },
+  "References": []
+}

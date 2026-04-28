@@ -1,0 +1,37 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "CurrencyIsoCode": "USD",
+    "Effective_End_Date__c": "",
+    "GearsetDisplayName": "Standard Price Book - Fleetio Onsite Training – 1000+ Vehicles - USD",
+    "GearsetExternalId__c": "IAIvWb95000009Vu10",
+    "IsActive": "true",
+    "Prodly_External_Id__c": "",
+    "UnitPrice": "15000.0",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "01tWB00000DNOtYYAX"
+      }
+    },
+    {
+      "Name": "ProductSellingModel",
+      "ReferencedObject": "ProductSellingModel",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

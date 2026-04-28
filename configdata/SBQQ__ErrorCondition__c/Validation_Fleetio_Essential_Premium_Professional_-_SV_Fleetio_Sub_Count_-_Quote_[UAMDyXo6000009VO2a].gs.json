@@ -1,0 +1,47 @@
+{
+  "Object": "SBQQ__ErrorCondition__c",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "ATGINTExternalID__c": "",
+    "CurrencyIsoCode": "USD",
+    "GearsetDisplayName": "Validation: Fleetio Essential Premium Professional - SV_Fleetio_Sub_Count - Quote",
+    "GearsetExternalId__c": "UAMDyXo6000009VO2a",
+    "OSCPQ_External_Id__c": "",
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__FilterValue__c": "0",
+    "SBQQ__Index__c": "10.0",
+    "SBQQ__Operator__c": "equals",
+    "SBQQ__TestedField__c": "",
+    "SBQQ__TestedObject__c": "Quote"
+  },
+  "References": [
+    {
+      "Name": "SBQQ__FilterVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Rule__r",
+      "ReferencedObject": "SBQQ__ProductRule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "UAID4Sa0000009Vu2a"
+      }
+    },
+    {
+      "Name": "SBQQ__TestedAttribute__r",
+      "ReferencedObject": "SBQQ__ProductAttribute__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TestedVariable__r",
+      "ReferencedObject": "SBQQ__SummaryVariable__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "YAMVThy0000009VH3a"
+      }
+    }
+  ]
+}

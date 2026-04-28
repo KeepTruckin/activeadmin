@@ -1,0 +1,39 @@
+{
+  "Object": "SBQQ__ProductFeature__c",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "ATGINTExternalID__c": "",
+    "CurrencyIsoCode": "USD",
+    "Ecomm_Description__c": "",
+    "Ecomm_IsAvailable__c": "false",
+    "Ecomm_PopupTitle__c": "",
+    "GearsetDisplayName": "Fleetio bundle - Equipment Management",
+    "GearsetExternalId__c": "0AIHU7D7000009Vs2a",
+    "Name": "Equipment Management",
+    "OSCPQ_External_Id__c": "",
+    "SBQQ__Category__c": "",
+    "SBQQ__ConfigurationFieldSet__c": "",
+    "SBQQ__DynamicProductFilterFieldSet__c": "",
+    "SBQQ__DynamicProductLookupFieldSet__c": "",
+    "SBQQ__MaxOptionCount__c": "1.0",
+    "SBQQ__MinOptionCount__c": "0.0",
+    "SBQQ__Number__c": "3.0",
+    "SBQQ__OptionSelectionMethod__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__ConfiguredSKU__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "01tWB00000DNOtXYAX"
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

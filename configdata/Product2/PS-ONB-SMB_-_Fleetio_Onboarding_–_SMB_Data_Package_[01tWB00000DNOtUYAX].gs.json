@@ -1,0 +1,237 @@
+{
+  "Object": "Product2",
+  "Fields": {
+    "AtgConcatExtId__c": "",
+    "ATGExternalId__c": "",
+    "ATGINTExternalID__c": "",
+    "AvailabilityDate": "",
+    "Billing_Type__c": "One-Time",
+    "Bypass_COL__c": "false",
+    "Charge_Model__c": "",
+    "COL_Enabled__c": "false",
+    "ConfigureDuringSale": "",
+    "CreatedbyATG__c": "false",
+    "Create_Project__c": "false",
+    "Credit_Reason__c": "",
+    "CurrencyIsoCode": "USD",
+    "Custom_Order_Quantity_Field__c": "",
+    "Declared_Value__c": "",
+    "Description": "Fleetio Onboarding – SMB Data Package Software Plan",
+    "DiscontinuedDate": "",
+    "DisplayUrl": "",
+    "ecomm_External_Resource_Links__c": "",
+    "ecomm_Featured_Product__c": "false",
+    "ecomm_Featured_Sequence__c": "",
+    "Ecomm_Proposed_Name__c": "",
+    "Ecomm_RelatedProducts__c": "",
+    "Ecomm_Status__c": "",
+    "Ecomm_WhatsIncluded__c": "",
+    "Eligible_Profiles__c": "",
+    "EndOfLifeDate": "",
+    "Entitlement_Grouping__c": "Partner – Fleetio - Software",
+    "Exclude_from_calculations__c": "false",
+    "Exclude_From_Contracted_Pricing__c": "false",
+    "Exclude_from_SMB__c": "false",
+    "Exclude_from_VF_Order_Form__c": "false",
+    "ExternalId": "",
+    "External_Description_Long__c": "",
+    "External_Description_Short__c": "",
+    "Family": "Partner – Fleetio",
+    "GearsetDisplayName": "PS-ONB-SMB - Fleetio Onboarding – SMB Data Package",
+    "GearsetExternalId__c": "01tWB00000DNOtUYAX",
+    "HelpText": "",
+    "Hide_In_OF__c": "false",
+    "Hide_in_QLE__c": "true",
+    "In_Commissionable_Onetime_Revenue__c": "false",
+    "IsActive": "true",
+    "IsAssetizable": "true",
+    "IsShippingChargeNotApplicable": "false",
+    "IsSoldOnlyWithOtherProds": "false",
+    "Is_Insurance_Subsidy__c": "false",
+    "Lead_Time_Days__c": "",
+    "ModifiedbyATG__c": "false",
+    "Name": "Fleetio Onboarding – SMB Data Package",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Omnicam_or_Pro_Install_Product__c": "false",
+    "One_time_CCV_Inclusion__c": "false",
+    "OSCPQ_External_Id__c": "",
+    "PlanTier__c": "",
+    "Prodly_External_Id__c": "",
+    "ProductCode": "PS-ONB-SMB",
+    "ProductPurpose": "Sell",
+    "Product_Class__c": "",
+    "Product_Group__c": "Software - Low Margin",
+    "Product_Type_Detail__c": "",
+    "Product_Type__c": "Professional Services",
+    "Proinstall_Product__c": "false",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "QuoteApprovalRequired__c": "",
+    "Reporting_Product_Family__c": "Partner – Fleetio",
+    "Reseller_Shipping__c": "false",
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "Salesforce_Product_ID__c": "01tWB00000DNOtUYAX",
+    "SBQQ__AssetAmendmentBehavior__c": "Default",
+    "SBQQ__AssetConversion__c": "",
+    "SBQQ__BatchQuantity__c": "",
+    "SBQQ__BillingFrequency__c": "",
+    "SBQQ__BillingType__c": "Advance",
+    "SBQQ__BlockPricingField__c": "Quantity",
+    "SBQQ__ChargeType__c": "",
+    "SBQQ__Component__c": "false",
+    "SBQQ__CompoundDiscountRate__c": "",
+    "SBQQ__ConfigurationEvent__c": "",
+    "SBQQ__ConfigurationFieldSet__c": "",
+    "SBQQ__ConfigurationFields__c": "",
+    "SBQQ__ConfigurationFormTitle__c": "",
+    "SBQQ__ConfigurationType__c": "",
+    "SBQQ__ConfigurationValidator__c": "",
+    "SBQQ__ConfiguredCodePattern__c": "",
+    "SBQQ__ConfiguredDescriptionPattern__c": "",
+    "SBQQ__CostEditable__c": "false",
+    "SBQQ__CustomConfigurationPage__c": "",
+    "SBQQ__CustomConfigurationRequired__c": "false",
+    "SBQQ__CustomerCommunityAvailability__c": "",
+    "SBQQ__DefaultPricingTable__c": "",
+    "SBQQ__DefaultQuantity__c": "1.0",
+    "SBQQ__DescriptionLocked__c": "false",
+    "SBQQ__DynamicPricingConstraint__c": "",
+    "SBQQ__EnableLargeConfiguration__c": "false",
+    "SBQQ__ExcludeFromMaintenance__c": "false",
+    "SBQQ__ExcludeFromOpportunity__c": "false",
+    "SBQQ__ExternallyConfigurable__c": "false",
+    "SBQQ__GenerateContractedPrice__c": "",
+    "SBQQ__HasConfigurationAttributes__c": "false",
+    "SBQQ__HasConsumptionSchedule__c": "false",
+    "SBQQ__Hidden__c": "false",
+    "SBQQ__HidePriceInSearchResults__c": "false",
+    "SBQQ__IncludeInMaintenance__c": "false",
+    "SBQQ__NewQuoteGroup__c": "false",
+    "SBQQ__NonDiscountable__c": "false",
+    "SBQQ__NonPartnerDiscountable__c": "false",
+    "SBQQ__Optional__c": "false",
+    "SBQQ__OptionLayout__c": "",
+    "SBQQ__OptionSelectionMethod__c": "Click",
+    "SBQQ__PriceEditable__c": "false",
+    "SBQQ__PricingMethodEditable__c": "false",
+    "SBQQ__PricingMethod__c": "List",
+    "SBQQ__ProductPictureID__c": "",
+    "SBQQ__QuantityEditable__c": "true",
+    "SBQQ__QuantityScale__c": "",
+    "SBQQ__ReconfigurationDisabled__c": "false",
+    "SBQQ__SortOrder__c": "",
+    "SBQQ__Specifications__c": "",
+    "SBQQ__SubscriptionBase__c": "List",
+    "SBQQ__SubscriptionCategory__c": "",
+    "SBQQ__SubscriptionPercent__c": "",
+    "SBQQ__SubscriptionPricing__c": "",
+    "SBQQ__SubscriptionTerm__c": "",
+    "SBQQ__SubscriptionType__c": "One-time",
+    "SBQQ__Taxable__c": "false",
+    "SBQQ__TaxCode__c": "",
+    "SBQQ__TermDiscountLevel__c": "",
+    "SBQQ__UpgradeRatio__c": "",
+    "Search_Tags__c": "",
+    "ShippingWeight": "",
+    "ShippingWeightUnitOfMeasure": "",
+    "Shipping_Service__c": "",
+    "Specifications__c": "",
+    "StockCheckMethod": "",
+    "StockKeepingUnit": "",
+    "Subsidy__c": "",
+    "Tax_Class__c": "Service Tax",
+    "Type": "",
+    "UsageModelType": "",
+    "Zuora_Rate_Plan_Charge_Id__c": "cf0995cc0ef9daf14cbdb5388db80b9d",
+    "Zuora_Rate_Plan_Id__c": "cf09d0d49b29daf299ddb5388d0904ff"
+  },
+  "References": [
+    {
+      "Name": "BasedOn",
+      "ReferencedObject": "ProductClassification",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "KTItem_Master__r",
+      "ReferencedObject": "Item__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__CostSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountCategory__r",
+      "ReferencedObject": "SBQQ__DiscountCategory__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PricingGuidance__r",
+      "ReferencedObject": "SBQQ__PricingGuidance__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__RenewalProduct__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__SubscriptionTarget__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__TermDiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeCredit__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeSource__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__UpgradeTarget__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

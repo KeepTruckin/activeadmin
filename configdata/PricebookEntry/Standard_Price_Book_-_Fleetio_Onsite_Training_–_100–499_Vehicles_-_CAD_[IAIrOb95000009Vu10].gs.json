@@ -1,0 +1,37 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "CurrencyIsoCode": "CAD",
+    "Effective_End_Date__c": "",
+    "GearsetDisplayName": "Standard Price Book - Fleetio Onsite Training – 100–499 Vehicles - CAD",
+    "GearsetExternalId__c": "IAIrOb95000009Vu10",
+    "IsActive": "true",
+    "Prodly_External_Id__c": "",
+    "UnitPrice": "10456.5",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "01tWB00000DNOtRYAX"
+      }
+    },
+    {
+      "Name": "ProductSellingModel",
+      "ReferencedObject": "ProductSellingModel",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Object": "Pricebook2",
+  "Fields": {
+    "CurrencyIsoCode": "USD",
+    "Description": "",
+    "ecomm_Type__c": "",
+    "GearsetDisplayName": "Standard Price Book",
+    "GearsetExternalId__c": "StandardPriceBook",
+    "IsActive": "true",
+    "Name": "Standard Price Book",
+    "Prodly_External_Id__c": "01si0000000GbrKAAS",
+    "ValidFrom": "",
+    "ValidTo": ""
+  },
+  "References": [
+    {
+      "Name": "RecordTypeId",
+      "ReferencedObject": "RecordType",
+      "ReferencedFields": {
+        "Name": "",
+        "SobjectType": ""
+      }
+    }
+  ]
+}

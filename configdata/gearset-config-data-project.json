@@ -1,0 +1,12 @@
+{
+  "Packages": [
+    "AdvancedApprovals",
+    "Cpq",
+    "ProductCatalogManagement",
+    "RateManagement",
+    "RcaBilling",
+    "SalesforcePricing",
+    "UsageManagement"
+  ],
+  "Version": 1
+}

@@ -1,0 +1,51 @@
+{
+  "Object": "SBQQ__Dimension__c",
+  "Fields": {
+    "ATGExternalId__c": "",
+    "CurrencyIsoCode": "USD",
+    "GearsetDisplayName": "Year",
+    "GearsetExternalId__c": "MA2rSV4100000BWJ2a",
+    "Name": "Year",
+    "OSCPQ_External_Id__c": "",
+    "SBQQ__CostEditable__c": "Inherit",
+    "SBQQ__DefaultQuantity__c": "",
+    "SBQQ__NonDiscountable__c": "Inherit",
+    "SBQQ__NonPartnerDiscountable__c": "Inherit",
+    "SBQQ__PriceEditable__c": "Inherit",
+    "SBQQ__QuantityEditable__c": "Inherit",
+    "SBQQ__QuantityScale__c": "",
+    "SBQQ__Taxable__c": "Inherit",
+    "SBQQ__Type__c": "Year",
+    "SBQQ__UnitPrice__c": ""
+  },
+  "References": [
+    {
+      "Name": "SBQQ__DiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__PriceBook__r",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    },
+    {
+      "Name": "SBQQ__Product__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "01tWB00000DNOtQYAX"
+      }
+    },
+    {
+      "Name": "SBQQ__TermDiscountSchedule__r",
+      "ReferencedObject": "SBQQ__DiscountSchedule__c",
+      "ReferencedFields": {
+        "GearsetExternalId__c": ""
+      }
+    }
+  ]
+}
